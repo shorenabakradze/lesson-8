@@ -1,0 +1,89 @@
+
+.bg-image {
+    background-image: url('../image/6329093.jpg');
+    height: 800px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.tree-a {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    z-index: 2;
+}
+.tree-b {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    z-index: 2;
+}
+.tree-c {
+    position: absolute;
+    bottom: 40px;
+    right: 400px;
+    z-index: 2;
+   
+}
+
+.leaf-sb{
+    position: absolute;
+    z-index: 3;
+
+}
+.leaf-1{
+ 
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.leaf-2{
+ 
+    
+    width: 60px;
+    height: 60px;
+}
+
+
+.leaf-3{
+    
+    width: 70px;
+    height: 70px;
+}
+
+.leaf-4{
+
+    width: 80px;
+    height: 80px;
+
+}
+
+
+.leaf-5{
+   
+    width: 90px;
+    height: 90px;
+    
+}
+
+
+.leaf-6{
+ 
+    left: 80px;
+    bottom: 80px;
+
+}
+
+/* transform: scale(2) rotate (360%)
+transform: scale(2) rotate (360%);
+transform: scale(2) rotate (360%)
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 100%;}
+  } */

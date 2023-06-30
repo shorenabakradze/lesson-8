@@ -1,93 +1,111 @@
 
-.bg-image {
-    background-image: url('../image/6329093.jpg');
-    height: 800px;
+.sb-image {
+    background-image: url("../image/desktop-wallpaper-seasons-autumn-live-basic-autumn-cartoon.jpg");
     width: 100%;
-    margin: 0 auto;
-    position: relative;
+    height: 900px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     z-index: 1;
 }
-.tree-a {
-    position: absolute;
-    height: 159px;
+.leaves-sb{
+    position: relative;
     width: 100%;
-    bottom: 20px;
-    left: 50px;
-    z-index: 2;
+    height: 100%;
+    
 }
-.tree-b {
+.leave-1 {
     position: absolute;
-    bottom: 30px;
-    right: 50px;
-    z-index: 2;
-}
-.tree-c {
-    position: absolute;
-    bottom: 40px;
-    right: 400px;
-    z-index: 2;
-   
-}
-
-.leaf-sb{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: 3;
-
-}
-.leaf-1{
- 
+    z-index: 10;
     width: 50px;
     height: 50px;
-
+    left:500px;
+    animation: mymove 2s linear infinite;
 }
-
-
-.leaf-2{
- 
-    
-    width: 60px;
-    height: 60px;
-}
-
-
-.leaf-3{
-    
-    width: 70px;
-    height: 70px;
-}
-
-.leaf-4{
-
-    width: 80px;
-    height: 80px;
-
-}
-
-
-.leaf-5{
-   
-    width: 90px;
-    height: 90px;
-    
-}
-
-
-.leaf-6{
- 
-    width: 80px;
-    height: 80px;
-
-}
-
-/* transform: scale(2) rotate (360%)
-transform: scale(2) rotate (360%);
-transform: scale(2) rotate (360%)
-
 @keyframes mymove {
-    from {left: 0px;}
-    to {left: 100%;}
-  } */
+  from {
+   top: 500px;
+    transform: rotate(0deg);
+  }
+  to {
+    bottom: 50px;
+    transform: perspective(360deg);
+  }
+}
+
+
+.leave-2 {
+    width: 50px;
+    height: 50px;
+    left: 500px;
+    top: 50px;
+    animation: mymove 15s linear infinite 20s;
+}
+@keyframes mymove {
+    from {
+     top: 500px;
+    }
+    to {
+      top: 50px;
+    }
+  }
+.leave-3 {
+    width: 50px;
+    height: 50px;
+    animation: mymove 15s linear infinite;
+}
+@keyframes mymove {
+    from {
+     top: 500px;
+      transform: rotate(0deg);
+    }
+    to {
+      bottom: 50px;
+      transform: perspective(360deg);
+    }
+  }
+.leave-4 {
+    width: 50px;
+    height: 50px;
+    animation: mymove 20s linear 10s 1 normal forwards;
+}
+@keyframes mymove {
+    from {
+     top: 500px;
+      transform: rotate(0deg);
+    }
+    to {
+      bottom: 50px;
+      transform: perspective(360deg);
+    }
+  }
+.leave-5 {
+    width: 50px;
+    height: 50px;
+    animation: mymove 20s linear 10s 1 normal forwards;
+}
+@keyframes mymove {
+    from {
+     top: 500px;
+      transform: rotate(0deg);
+    }
+    to {
+      bottom: 50px;
+      transform: perspective(360deg);
+    }
+  }
+
+.leave-6 {
+    width: 50px;
+    height: 50px;
+    animation: mymove 15s linear infinite;
+}
+@keyframes mymove {
+    from {
+     top: 500px;
+      transform: rotate(0deg);
+    }
+    to {
+      bottom: 50px;
+      transform: perspective(360deg);
+    }
+  }
